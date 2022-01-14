@@ -114,7 +114,7 @@ Widget build(BuildContext context) {
       borderRadius: BorderRadius.circular(20.0),
     ),
     child: Container(
-      padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 20.0),
+      padding: const EdgeInsets.symmetric(horizontal: 20.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -122,8 +122,6 @@ Widget build(BuildContext context) {
           Text(
             localizations.welcomeToOpenFoodFacts,
             textAlign: TextAlign.center,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
             style: const TextStyle(
               fontSize: 36.0,
               fontWeight: FontWeight.bold,
